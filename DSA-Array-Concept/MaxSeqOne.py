@@ -18,7 +18,7 @@ class solution :
                 max_count = max(max_count,count)
                 count = 0
 
-        return max_count
+        return max(max_count,count)
 
 nums = [1,1,0,0,0,1,1,1,1,1,0,1,0] 
 S = solution()
